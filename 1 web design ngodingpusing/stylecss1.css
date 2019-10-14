@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700i&display=swap');
+
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.big-banner {
+  background: url("../course1/mountain2.jpg");
+  height: 500px;
+  background-size: cover;
+}
+
+.menu{
+ overflow: hidden;
+}
+
+.box {
+  width: 900px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.logo {
+  float: left;
+}
+
+.logo h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 23px;
+}
+
+.box-logo {
+  color: white;
+  background: red;
+  border-radius: 15px;
+  padding: 5px;
+  font-weight: lighter;
+}
+
+.menu-kanan {
+  float: right;
+}
+
+.menu-kanan a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  padding: 15px;
+  background-color;
+  display: inline-block;
+  color: black;
+}
+
+.menu-kanan a:hover {
+  font-weight: 600;
+  color: red;
+}
+
+.header-tengah {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin-top: 150px;
+  font-size: 20px;
+}
+
+.header-tengah h1 {
+  font-weight:  400;
+}
+
+.custom-start {
+  color: #A42C0B;
+  letter-spacing: 5px;
+  font-weight: 600;
+}
+
+.btn-login {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #DC390C;
+  font-size: 15px;
+  font-weight: 200;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.btn-register {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #DC390C;
+  font-size: 15px;
+  font-weight: 200;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.btn-register:hover {
+  color: black;
+  transition: 0.8s;
+}
+
+.konten1 {
+  width: 300px;
+  float: left;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.konten {
+  text-align: center;
+  padding-top: 50px;
+  overflow: hidden;
+}
+
+.konten h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.konten p {
+  font-family: 'Roboto', sans-serif;
+  color: #B3B6B7;
+}
+
+.konten2 {
+    overflow: hidden;
+    background-color: #F7F9F9;
+    font-family: 'Montserrat', sans-serif;
+    padding: 25px;
+}
+
+.col-300 {
+  width: 300px;
+  float: left;
+}
+
+.col-300 h3 {
+  font-size: 2em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.col-300 p {
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1px;
+}
+
+.col-600 {
+  width: 600px;
+  overflow: hidden;
+}
+
+.footer {
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  overflow: hidden;
+}
